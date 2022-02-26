@@ -8,9 +8,10 @@
 import UIKit
 
 class NextViewController: UIViewController {
+    private var countModel = CountModel.init(count: 0)
+    
     @IBOutlet weak var countLabel: UILabel!
-
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
