@@ -16,10 +16,4 @@ class NextViewController: UIViewController {
             countLabel.text = "遷移元から渡された値：\(countModel.count)"
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 }

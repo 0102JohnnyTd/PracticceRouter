@@ -35,11 +35,6 @@ class ViewController: UIViewController {
         countModel.count += 1
         countLabel.text = countModel.count.description
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 }
 
 extension ViewController {
@@ -47,6 +42,6 @@ extension ViewController {
         guard let navigationController = from.navigationController else {
             return from.present(next, animated: animated, completion: nil)
         }
-        return navigationController.pushViewController(next, animated: animated)
+         navigationController.pushViewController(next, animated: animated)
     }
 }
