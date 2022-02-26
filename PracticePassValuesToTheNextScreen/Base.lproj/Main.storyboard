@@ -22,7 +22,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcW-yS-cmx">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="272.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Next">
+                                        <buttonConfiguration key="configuration" style="plain" title="Go next">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                         </buttonConfiguration>
                                     </button>
@@ -54,7 +54,7 @@
                     <connections>
                         <outlet property="countLabel" destination="KCu-Zb-BeQ" id="IEE-B5-yFQ"/>
                         <outlet property="countUpButton" destination="4UR-vy-TEq" id="YiI-Sg-mo7"/>
-                        <outlet property="nextButton" destination="tcW-yS-cmx" id="rnR-eN-bpi"/>
+                        <outlet property="goNextButton" destination="tcW-yS-cmx" id="rnR-eN-bpi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

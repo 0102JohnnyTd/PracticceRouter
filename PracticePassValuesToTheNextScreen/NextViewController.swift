@@ -8,9 +8,14 @@
 import UIKit
 
 class NextViewController: UIViewController {
-    private var countModel = CountModel.init(count: 0)
+    var countModel = CountModel.init(count: 0)
+    static let storyboardName = "Next"
     
-    @IBOutlet weak var countLabel: UILabel!
+    @IBOutlet weak var countLabel: UILabel! {
+        didSet {
+            countLabel.text = "遷移元から渡された値：\(countModel.count)"
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
