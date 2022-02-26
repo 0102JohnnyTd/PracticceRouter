@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var nextButton: UIButton!
-    @IBOutlet weak var countUpButton: UIButton!
+
+    @IBOutlet weak var countUpButton: UIButton! {
+        didSet {
+            countUpButton.addTarget(self, action: #selector(countUp), for: .touchUpInside)
+        }
+    }
+    @objc func countUp() {
+        countModel.count += 1
+        countLabel.text = countModel.count.description
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

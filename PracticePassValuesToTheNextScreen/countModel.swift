@@ -10,4 +10,3 @@ import Foundation
 struct CountModel {
     var count = 0
 }
-

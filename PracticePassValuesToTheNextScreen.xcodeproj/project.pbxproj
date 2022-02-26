@@ -64,10 +64,10 @@
 			children = (
 				1C79BACE27CA008D00AF5DBA /* AppDelegate.swift */,
 				1C79BAD027CA008D00AF5DBA /* SceneDelegate.swift */,
+				1C79BAE727CA04B600AF5DBA /* countModel.swift */,
 				1C79BAD227CA008D00AF5DBA /* ViewController.swift */,
 				1C79BAD427CA008D00AF5DBA /* Main.storyboard */,
 				1C79BAE427CA030A00AF5DBA /* NextViewController.swift */,
-				1C79BAE727CA04B600AF5DBA /* countModel.swift */,
 				1C79BAE227CA02AA00AF5DBA /* Next.storyboard */,
 				1C79BAD727CA009100AF5DBA /* Assets.xcassets */,
 				1C79BAD927CA009100AF5DBA /* LaunchScreen.storyboard */,
